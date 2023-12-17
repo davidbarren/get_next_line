@@ -9,12 +9,6 @@
 
      fd = open("file.txt", O_RDONLY);
      line = NULL;
-     // int i = 0;
-     // while (i++ < 30 && line)
-     // {
-     // line = get_next_line(fd);
-     //  printf("main:%s", line);
-     // }
       do
       {
           if (line)
